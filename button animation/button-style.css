@@ -44,13 +44,13 @@ a {
 .button__content {
   position: relative;
   background: var(--gradient-color);
-  padding: 1.25rem 2rem;
+  padding: 1.25rem;
   border-radius: 4rem;
   border: 3px solid var(--black-color);
   color: var(--black-color);
   display: flex;
   align-items: center;
-  column-gap: 3rem;
+  column-gap: 2rem;
   overflow: hidden;
 }
 
@@ -111,14 +111,14 @@ a {
 
 .button__star-1 {
   width: 20px;
-  top: -14px;
+  top: -9px;
   left: -2px;
   transform: rotate(48deg) scale(0.1);
 }
 
 .button__star-2 {
   width: 40px;
-  right: -39px;
+  right: -30px;
   top: -4px;
   transform: rotate(-48deg) scale(0.1);
 }
@@ -129,7 +129,7 @@ a {
 }
 
 .button__circle-1 {
-  top: -9px;
+  top: -8px;
   left: 58px;
   transform: scale(0.1);
 }
@@ -142,7 +142,7 @@ a {
 
 .button__diamond {
   width: 18px;
-  top: -32px;
+  top: -30px;
   right: 62px;
   transform: scale(0.1);
 }
